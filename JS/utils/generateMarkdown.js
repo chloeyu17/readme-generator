@@ -82,7 +82,7 @@ ${genLicenseSection(data.license)}
   ${data.tests}
 
 ## Questions
-  Please email me with any question regarding this project @ ${data.email} or ${data.contact} and connect with me on Github and LinkedIn. 
+  Please email me with any question regarding this project at ${data.email} or ${data.contact} and connect with me on Github and LinkedIn. 
   [![GitHub](https://img.shields.io/badge/My%20GitHub-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/${data.username}) 
   `;
 }
