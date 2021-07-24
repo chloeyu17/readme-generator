@@ -19,7 +19,10 @@
 
 ## Usage
 Once you open your VS Studio Code, you will need to run node index.js in the terminal to start the application.  Attached is a video demonstrating how to run the application:
-(https://drive.google.com/file/d/1bagCkbe0GEjqykqp6_g28TH6G52VJEQZ/view)
+
+https://drive.google.com/file/d/1bagCkbe0GEjqykqp6_g28TH6G52VJEQZ/view
+
+![videolink](tutorial.gif)
   
 
 ## Links
