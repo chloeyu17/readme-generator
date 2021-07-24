@@ -4,12 +4,12 @@
     "description": "node automates the creation of a professional README based on user entered data",
     "main": "index.js",
     "scripts": {
-      "test": "node index.js"
+        "test": "node index.js"
     },
     "author": "Chloe Yu",
     "license": "ISC",
     "dependencies": {
-      "inquirer": "^6.5.2",
-      "nodemon": "^2.0.7"
+        "inquirer": "^6.5.2",
+        "nodemon": "^2.0.7"
     }
-  }
+}
