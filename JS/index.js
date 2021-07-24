@@ -53,7 +53,7 @@ const questions = [
         // Validate that a project title has been entered
         validate: function (answer) {
             if (answer.length < 1) {
-                return console.log("You must submit a project title");
+                return console.log("You must submit a project title.");
             }
             return true;
         }
@@ -67,67 +67,72 @@ const questions = [
         // Validate atleast one word has been entered
         validate: function (answer) {
             if (answer.length < 1) {
-                return console.log("Description for your project is required!");
+                return console.log("You must submit a project description.");
             }
             return true;
         }
     },
+
     // Project Installation
     {
         type: 'input',
         name: 'installation',
-        message: 'Explain installation process (if necessary).',
-        
+        message: 'Explain installation process:',    
     },
+
     // Usage of project
     {
         type: 'input',
         name: 'usage',
-        message: 'Explain project instructions and examples (if necessary).',
-        
+        message: 'Explain project usage and instructions:',    
     },
+
     // Choose license
     {
         type: 'list',
         name: 'license',
-        message: 'Please choose a license.',
-        choices: ['apache-2.0', 'BSD 3-Clause "New" or "Revised"' ,'GNU General Public License v3.0', 'MIT']
-        
+        message: 'Choose a license.',
+        choices: ['apache-2.0', 'BSD 3-Clause "New" or "Revised"' ,'GNU General Public License v3.0', 'MIT'] 
     },
+
     // Contributors
     {
         type: 'input',
-        name: 'contributing',
-        message: 'List any contributors to your project (if necessary).',
-
+        name: 'contributors',
+        message: 'List any contributors to your project.',
     },
+
     // Project tests
     {
         type: 'input',
         name: 'tests',
-        message: 'Explain and provide tests for your project (if necessary).',
+        message: 'Explain and provide tests for your project.',
+    },
 
+    // Contact Info
+    {
+        type: 'input',
+        name: 'contact',
+        message: 'Input any additional contact information',
     },
 ];
 
-
-
-// function to write README file
-function writeToFile(fileName, data) {
+// Function to write README file
+function writeReadMe(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
-        console.log("Generating file.");
-        
+        console.log("Generating file...");
     });
 }
 
-// function to initialize app
-function init() {inquirer
+//Function to initialize app
+function init() {
+    inquirer
     .prompt(questions)
     .then(answers => {
         console.log(answers);
-        writeToFile("README.md", generateMarkdown(answers));
-    });}
+        writeReadMe("README.md", generateMarkdown(answers));
+    });
+}
 
-// Function to initialize app
 init();
