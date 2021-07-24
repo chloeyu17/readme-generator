@@ -2,10 +2,7 @@
 [![MIT](https://img.shields.io/badge/license-MIT-green?style=plastic)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 ## Description
-  The ReadME Generator uses nodeJS to generate an original README in markdown text. In fact, the ReadME that you are currently reading was created with the readme-generator application!
-
-## Technology
-    This application was built using JavaScript and Node.js
+  The ReadME Generator uses nodeJS to generate an original README in markdown text. In fact, the ReadME that you are currently reading was created with the readme-generator application! This application was built using JavaScript and Node.js
 
 ## Table of Contents
   * [Installation](#installation)
@@ -18,7 +15,7 @@
   
   
 ## Installation
-  Must install an npm package and run node in the terminal
+  Must install an npm package and run node in the terminal.
 
 ## Usage
 Once you open your VS Studio Code, you will need to run node index.js in the terminal to start the application.  Attached is a video demonstrating how to run the application.
@@ -27,8 +24,8 @@ Once you open your VS Studio Code, you will need to run node index.js in the ter
   
 
  ## Links
-  ### Application URL: (https://chloeyu17.github.io/readme-generator/)
-  ### Github Repository URL: (https://github.com/chloeyu17/readme-generator)
+ * Application URL: (https://chloeyu17.github.io/readme-generator/)
+ * Github Repository URL: (https://github.com/chloeyu17/readme-generator)
 
 ## License
   [![MIT](https://img.shields.io/badge/license-MIT-green?style=plastic)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
@@ -41,5 +38,5 @@ Once you open your VS Studio Code, you will need to run node index.js in the ter
   
 
 ## Questions
-  Please email me with any question regarding this project @ chloeyu@icloud.com or 908 239 3088 and connect with me on Github and LinkedIn. 
+  Please email me with any question regarding this project at chloeyu@icloud.com or 908 239 3088 and connect with me on Github and LinkedIn. 
   [![GitHub](https://img.shields.io/badge/My%20GitHub-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/chloeyu17) 
